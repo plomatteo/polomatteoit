@@ -59,6 +59,7 @@ const Index = () => {
       {/* End Blog */}
       {/* Contact us */}
       <Contact />
+      <Footer />
     </Layout>
   );
 };
