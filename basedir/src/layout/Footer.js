@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import { Fragment, useEffect } from "react";
 import { activeSection } from "../utilits";
 const Footer = () => {
