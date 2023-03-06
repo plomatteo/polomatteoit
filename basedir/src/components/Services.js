@@ -97,7 +97,7 @@ const Services = () => {
 
         </div>
         <div className="separated" />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </div>
     </section>
   );
