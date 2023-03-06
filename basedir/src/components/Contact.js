@@ -4,10 +4,11 @@ const Contact = () => {
   const [mailData, setMailData] = useState({
     name: "",
     email: "",
+    mobilePhone: "",
     subject: "",
     message: "",
   });
-  const { name, email, message, subject } = mailData;
+  const { name, email, mobilePhone, message, subject } = mailData;
   const [error, setError] = useState(null);
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
@@ -16,6 +17,7 @@ const Contact = () => {
     if (
       name.length === 0 ||
       email.length === 0 ||
+      mobilePhone === 0 ||
       message.length === 0 ||
       subject.length === 0
     ) {
@@ -33,7 +35,7 @@ const Contact = () => {
           (response) => {
             setError(false);
             clearError();
-            setMailData({ name: "", email: "", message: "", subject: "" });
+            setMailData({ name: "", email: "", mobilePhone: "", message: "", subject: "" });
           },
           (err) => {
             console.log(err.text);
@@ -112,12 +114,12 @@ const Contact = () => {
                   <div className="col-12">
                     <div className="form-group">
                       <input
-                        name="number"
+                        name="mobilePhone"
                         onChange={(e) => onChange(e)}
-                        value={subject}
-                        id="number"
+                        value={mobilePhone}
+                        id="mobilePhone"
                         placeholder="Telefono *"
-                        className={`form-control ${error ? (!subject ? "invalid" : "") : ""
+                        className={`form-control ${error ? (!mobilePhone ? "invalid" : "") : ""
                           }`}
                         type="tel"
                       />
