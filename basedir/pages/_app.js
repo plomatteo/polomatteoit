@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Script from 'next/script'
+import Script from 'next/script';
+import IubendaScript from "../public/scriptIubenda";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
