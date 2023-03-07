@@ -58,11 +58,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
       </Head>
-      <Script id="show-banner" strategy="lazyOnload">
-        {`
-          var _iub = _iub || [];
-          _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "countryDetection": true, "enableLgpd": true, "enableUspr": true, "floatingPreferencesButtonDisplay": "bottom-right", "lang": "en", "lgpdAppliesGlobally": false, "perPurposeConsent": true, "siteId": 3020686, "whitelabel": false, "cookiePolicyId": 77821801, "banner": { "acceptButtonDisplay": true, "closeButtonDisplay": false, "customizeButtonDisplay": true, "explicitWithdrawal": true, "fontSizeBody": "12px", "listPurposes": true, "position": "float-bottom-right", "rejectButtonDisplay": true, "showPurposesToggles": true }; }`}
-      </Script>
+      <IubendaScript />
       <Script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></Script>
       <Script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></Script>
       {load && <PreLoader />}
