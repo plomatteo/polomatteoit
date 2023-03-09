@@ -104,4 +104,4 @@ const SingleBlog2 = () => {
     </Layout>
   );
 };
-export default SingleBlog;
+export default SingleBlog2;
