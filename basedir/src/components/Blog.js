@@ -16,18 +16,18 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link href="/single-blog-2">
                   <a>
-                    <img src="static/img/casa.png" title="" alt="" />
+                    <img src="static/img/precarieta.jpeg" title="" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">4/MAR/2023</div>
+                <div className="meta">9/MAR/2023</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link href="/single-blog-2">
                     <a>
-                      La prima casa deve essere un diritto anche se nasci in una località turistica
+                      Lotta alla precarietà, difesa dei servizi di base e dell’ambiente, investimenti
                     </a>
                   </Link>
                 </h6>
@@ -44,11 +44,11 @@ const Blog = () => {
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">9/MAR/2023</div>
+                <div className="meta">4/MAR/2023</div>
                 <h6>
-                  <Link href="/single-blog-2">
+                  <Link href="/single-blog">
                     <a>
-                      Lotta alla precarietà, difesa dei servizi di base e dell’ambiente, investimenti per il progresso economico e sociale.
+                      La prima casa deve essere un diritto anche se nasci in una località turistica
                     </a>
                   </Link>
                 </h6>
