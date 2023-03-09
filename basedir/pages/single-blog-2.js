@@ -17,7 +17,7 @@ const SingleBlog2 = () => {
                   <h2>Lotta alla precarietà, difesa dei servizi di base e dell’ambiente, investimenti per il progresso economico e sociale.</h2>
                   <div className="media">
                     <div className="avatar">
-                      <img src="static/img/team-1.jpg" title="" alt="" />
+                      <img src="static/img/autore-matteo.png" title="" alt="" />
                     </div>
                     <div className="media-body">
                       <label>Matteo Polo</label>
