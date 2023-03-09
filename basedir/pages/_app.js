@@ -61,8 +61,8 @@ function MyApp({ Component, pageProps }) {
       {load && <PreLoader />}
       <Component {...pageProps} />
 
-      <Script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></Script>
-      <Script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></Script>
+      <Script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js" />
+      <Script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async />
       <Script id="show-banner" strategy="afterInteractive">
         {`
           var _iub = _iub || [];
