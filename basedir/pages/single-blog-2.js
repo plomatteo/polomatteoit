@@ -5,7 +5,7 @@ const SingleBlog2 = () => {
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
-            <img src="static/img/casa.png" title="" alt="" />
+            <img src="static/img/precarieta.jpeg" title="" alt="" />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-8">
