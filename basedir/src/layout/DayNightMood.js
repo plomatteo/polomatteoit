@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
-const DayNightMood = () => {
+const DayNightMood = (toggleName) => {
   const [setNight, night] = useState(true);
   useEffect(() => {
     document.querySelector("body").classList.toggle("theme-light");
-  }, [])
+  }, [toggleName])
   const changeMood = () => {
     document.querySelector("body").classList.toggle("theme-light");
   };
