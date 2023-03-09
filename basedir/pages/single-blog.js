@@ -17,7 +17,7 @@ const SingleBlog = () => {
                   <h2>La prima casa deve essere un diritto anche se nasci in una località turistica</h2>
                   <div className="media">
                     <div className="avatar">
-                      <img src="static/img/team-1.jpg" title="" alt="" />
+                      <img src="static/img/autore-matteo.png" title="" alt="" />
                     </div>
                     <div className="media-body">
                       <label>Matteo Polo</label>
