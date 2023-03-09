@@ -73,17 +73,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-
-export default function iubendaScript() {
-  return (
-    <>
-      <Script
-        id="onload-id"
-        src="https://cdn.example.com/script.js"
-        onLoad={() => {
-          // ... code here
-        }}
-      />
-    </>
-  )
-}
