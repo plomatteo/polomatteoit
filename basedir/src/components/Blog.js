@@ -34,13 +34,34 @@ const Blog = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="/single-blog">
+                  <a>
+                    <img src="static/img/casa.png" title="" alt="" />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-info">
+                <div className="meta">9/MAR/2023</div>
+                <h6>
+                  <Link href="/single-blog-2">
+                    <a>
+                      Lotta alla precarietà, difesa dei servizi di base e dell’ambiente, investimenti per il progresso economico e sociale.
+                    </a>
+                  </Link>
+                </h6>
+              </div>
+            </div>
+          </div>
 
 
-          <div className="col-12 read-more-blog text-center">
+          {/* <div className="col-12 read-more-blog text-center">
             <Link href="/blog">
               <a className="px-btn px-btn-theme">More Blogs</a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
