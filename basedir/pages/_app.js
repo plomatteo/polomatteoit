@@ -10,9 +10,12 @@ function MyApp({ Component, pageProps }) {
     setTimeout(() => {
       setLoad(false);
     }, 1000);
+    localStorage.setItem('darkMode', false);
+    document.querySelector("body").classList.toggle("theme-light");
   }, []);
 
   return (
+
     <Fragment>
       <Head>
         <title>Matteo Polo - Regionali 2023</title>
@@ -65,8 +68,8 @@ function MyApp({ Component, pageProps }) {
       <Script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async />
       <Script id="show-banner" strategy="afterInteractive">
         {`
-          var _iub = _iub || [];
-          _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "countryDetection": true, "enableLgpd": true, "enableUspr": true, "floatingPreferencesButtonDisplay": "bottom-right", "lang": "en", "lgpdAppliesGlobally": false, "perPurposeConsent": true, "siteId": 3020686, "whitelabel": false, "cookiePolicyId": 77821801, "banner": { "acceptButtonDisplay": true, "closeButtonDisplay": false, "customizeButtonDisplay": true, "explicitWithdrawal": true, "fontSizeBody": "12px", "listPurposes": true, "position": "float-bottom-right", "rejectButtonDisplay": true, "showPurposesToggles": true }; }`}
+          var _iub = _iub || []
+          _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "countryDetection": true, "enableLgpd": true, "enableUspr": true, "floatingPreferencesButtonDisplay": "bottom-right", "lang": "en", "lgpdAppliesGlobally": false, "perPurposeConsent": true, "siteId": 3020686, "whitelabel": false, "cookiePolicyId": 77821801, "banner": { "acceptButtonDisplay": true, "closeButtonDisplay": false, "customizeButtonDisplay": true, "explicitWithdrawal": true, "fontSizeBody": "12px", "listPurposes": true, "position": "float-bottom-right", "rejectButtonDisplay": true, "showPurposesToggles": true } }`}
       </Script>
     </Fragment>
   );

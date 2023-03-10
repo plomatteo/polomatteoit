@@ -1,7 +1,7 @@
 import Layout from "../src/layout/Layout";
 const SingleBlog = () => {
   return (
-    <Layout blog>
+    <Layout blog >
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
