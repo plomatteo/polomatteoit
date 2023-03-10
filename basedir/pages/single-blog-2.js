@@ -6,7 +6,7 @@ const SingleBlog2 = () => {
       <meta property="og:type" content="article" />
       <meta property="og:title" content="Lotta alla precarietà, difesa dei servizi, investimenti per il progresso." />
       <meta property="og:description" content="Ci sono molte questioni che in queste settimane vogliamo rimettere al centro del dibattito pubblico, tra queste ce ne sono quatto che hanno la priorità." />
-      <meta property="og:image" content="static/img/precarieta.jpeg" />
+      <meta property="og:image" content="	https://matteopolo.com/static/img/precarieta.jpeg" />
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">

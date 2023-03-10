@@ -17,7 +17,7 @@ const Index = () => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Matteo Polo - Regionali 2023" />
       <meta property="og:description" content="Mi chiamo Matteo, ho 31 anni, lavoro come Frontend Developer. Tra il 2016 e il 2021 sono stato Vicesindaco e Assessore al Turismo, AA.PP. e sport" />
-      <meta property="og:image" content="static/img/matteo-polo.png" />
+      <meta property="og:image" content="	https://matteopolo.com/static/img/matteo-polo.png" />
       <section
         id="home"
         data-nav-tooltip="Home"

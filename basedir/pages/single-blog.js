@@ -6,7 +6,7 @@ const SingleBlog = () => {
       <meta property="og:type" content="article" />
       <meta property="og:title" content="La prima casa deve essere un diritto anche se nasci in una località turistica" />
       <meta property="og:description" content=" Non mi stancherò mai di ripetere come Grado abbia bisogno di tutte quelle forme di edilizia che possono facilitare l'acquisto della prima casa per i residenti." />
-      <meta property="og:image" content="static/img/casa.png" />
+      <meta property="og:image" content="	https://matteopolo.com/static/img/casa.png" />
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
