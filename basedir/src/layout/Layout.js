@@ -3,7 +3,7 @@ import ImageView from "../components/ImageView";
 import BackBtn from "./BackBtn";
 import DayNightMood from "./DayNightMood";
 import Header from "./Header";
-const Layout = ({ children, blog }) => {
+const Layout = ({ children, blog, themeMode }) => {
   return (
     <Fragment>
       <ImageView />
@@ -13,7 +13,7 @@ const Layout = ({ children, blog }) => {
       <Header blog={blog} />
       {/* Main Start */}
       <main className="main-left pp-main-section">{children}</main>
-      <DayNightMood toggleName="false" />
+      <DayNightMood />
       {blog && <BackBtn />}
     </Fragment>
   );

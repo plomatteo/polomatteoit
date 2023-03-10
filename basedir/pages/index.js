@@ -6,6 +6,7 @@ import Services from "../src/components/Services";
 import Footer from "../src/layout/Footer";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
+import { useEffect } from "react";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
 });
