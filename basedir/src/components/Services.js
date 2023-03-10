@@ -82,18 +82,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-desktop" />
-              <div className="feature-content media-body">
-                <h5>Fare economie, creare lavoro</h5>
-                <p>
-                  <p>Basta con <strong>inutili contributi</strong> a pioggia: milioni di euro per nuovi impianti sciistici a bassa quota, rimborsi insufficienti alle imprese per i <strong>costi energetici</strong>, incentivi sulle fonti rinnovabili erogati in modo inefficiente e a <strong>favore di pochi</strong>, mancanza di una seria programmazione della spesa pubblica. Servono scelte coraggiose.<br />Destinare almeno il 3% del PIL regionale alla <strong>ricerca</strong>, favorire l’<strong>economia circolare</strong> e la crescita delle professionalità necessarie alla <strong>transizione ecologica</strong>; responsabilità sociale d’impresa e <strong>stop al lavoro precario</strong>, portare l’<strong>occupazione femminile</strong> al 70% e ridurre la disoccupazione dei <strong>giovani</strong> che non studiano né lavorano sotto il 10%.</p>
-
-                </p>
-              </div>
-            </div>
-          </div>
 
         </div>
         <div className="separated" />
