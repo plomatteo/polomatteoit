@@ -2,7 +2,7 @@ import Layout from "../src/layout/Layout";
 const SingleBlog2 = () => {
   return (
     <Layout blog >
-      <meta property="og:url" content={window.location.href} />
+      <meta property="og:url" content="https://matteopolo.com/single-blog-2" />
       <meta property="og:type" content="article" />
       <meta property="og:title" content="Lotta alla precarietà, difesa dei servizi, investimenti per il progresso." />
       <meta property="og:description" content="Ci sono molte questioni che in queste settimane vogliamo rimettere al centro del dibattito pubblico, tra queste ce ne sono quatto che hanno la priorità." />
