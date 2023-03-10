@@ -1,23 +1,32 @@
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState, useRef } from "react";
 import { activeSection } from "../utilits";
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
+  const sideBarRef = useRef();
+  const buttonRef = useRef();
   useEffect(() => {
     if (!blog) {
       activeSection();
     }
+    const closeSideBar = e => {
+      if (e.target !== sideBarRef.current && e.target !== buttonRef.current) {
+        setSideBarToggle(false);
+      }
+    }
+    document.body.addEventListener('mousedown', closeSideBar)
+    return () => document.body.removeEventListener('mousedown', closeSideBar)
   }, []);
   return (
     <Fragment>
-      <div className="mob-header">
+      <div ref={sideBarRef} className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/">
               <a className="logo-text">Matteo Polo '23</a>
             </Link>
           </div>
-          <button
+          <button ref={buttonRef}
             className={`toggler-menu ${sideBarToggle ? "open" : ""}`}
             onClick={() => setSideBarToggle(!sideBarToggle)}
           >

@@ -1,14 +1,8 @@
-import { useState } from "react";
-import { useEffect } from "react";
-
 const DayNightMood = () => {
-
 
   const changeMood = () => {
     document.querySelector("body").classList.toggle("theme-light");
   };
-
-
 
   return (
     <label className="color_switch" onClick={() => changeMood()}>
