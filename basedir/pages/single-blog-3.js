@@ -4,8 +4,8 @@ const SingleBlog2 = () => {
     <Layout blog >
       <meta property="og:url" content="https://matteopolo.com/single-blog-3" />
       <meta property="og:type" content="article" />
-      <meta property="og:title" content="Lotta alla precarietà, difesa dei servizi, investimenti per il progresso." />
-      <meta property="og:description" content="Ci sono molte questioni che in queste settimane vogliamo rimettere al centro del dibattito pubblico, tra queste ce ne sono quatto che hanno la priorità." />
+      <meta property="og:title" content="Finanziamenti per impianti di risalita a bassa quota sì, escavi delle cavane no" />
+      <meta property="og:description" content="Recentemente mi sono imbattuto in un articolo che dedica un intero paragrafo alla nostra Regione." />
       <meta property="og:image" content="https://matteopolo.com/static/img/mare-montagna.png" />
       <div className="single-blog">
         <div className="container">
