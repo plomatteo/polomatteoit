@@ -16,6 +16,27 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
+                <Link href="/partecipazione">
+                  <a>
+                    <img src="static/img/partecipazione.png" title="" alt="" />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-info">
+                <div className="meta">12/MAR/2023</div>
+                <h6>
+                  <Link href="/partecipazione">
+                    <a>
+                      Provandoci sempre le cose possono cambiare - Marta Cester
+                    </a>
+                  </Link>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
                 <Link href="/single-blog-3">
                   <a>
                     <img src="static/img/mare-montagna.png" title="" alt="" />
@@ -27,7 +48,7 @@ const Blog = () => {
                 <h6>
                   <Link href="/single-blog-3">
                     <a>
-                      Finanziamenti per impianti di risalita a bassa quota sì, escavi delle cavane no
+                      Impianti di risalita sì, escavi delle cavane no - Dario Raugna
                     </a>
                   </Link>
                 </h6>

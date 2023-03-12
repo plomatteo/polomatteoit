@@ -1,10 +1,10 @@
 import Layout from "../src/layout/Layout";
-const SingleBlog2 = () => {
+const SingleBlog3 = () => {
   return (
     <Layout blog >
       <meta property="og:url" content="https://matteopolo.com/single-blog-3" />
       <meta property="og:type" content="article" />
-      <meta property="og:title" content="Finanziamenti per impianti di risalita a bassa quota sì, escavi delle cavane no" />
+      <meta property="og:title" content="Impianti di risalita sì, escavi delle cavane no - Dario Raugna" />
       <meta property="og:description" content="Recentemente mi sono imbattuto in un articolo che dedica un intero paragrafo alla nostra Regione." />
       <meta property="og:image" content="https://matteopolo.com/static/img/mare-montagna.png" />
       <div className="single-blog">
@@ -49,4 +49,4 @@ const SingleBlog2 = () => {
     </Layout >
   );
 };
-export default SingleBlog2;
+export default SingleBlog3;
