@@ -1,5 +1,5 @@
 import Layout from "../src/layout/Layout";
-const partecipazione = () => {
+const Partecipazione = () => {
   return (
     <Layout blog >
       <meta property="og:url" content="https://matteopolo.com/partecipazione" />
@@ -53,4 +53,4 @@ const partecipazione = () => {
     </Layout >
   );
 };
-export default partecipazione;
+export default Partecipazione;
