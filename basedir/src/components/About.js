@@ -34,7 +34,7 @@ const About = () => {
                     <span>Contattami</span>
                   </a>
                   <a className="px-btn px-btn-theme" href="#">
-                    <span>La mia storia</span>
+                    <span>Guarda i progetti</span>
                   </a>
                 </div>
               </div>

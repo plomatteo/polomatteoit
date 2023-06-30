@@ -13,10 +13,12 @@ const Services = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>Idee per un futuro più giusto</h3>
+          <h3>I miei progetti</h3>
         </div>
         <div className="row">
-          <div className="col-sm-6 m-15px-tb">
+
+          <h1>Coming soon</h1>
+          {/* <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
               <i class="icon theme-bg bi-house-door" />
               <div className="feature-content media-body">
@@ -60,7 +62,7 @@ const Services = () => {
                   {/* a)	equità di servizi tra aree urbane, interne e montane, garantendo guardie mediche e medici di base; <br /><br />
                   b)	destinare alla prevenzione almeno il 5% delle risorse destinate alla sanità, agire con il potenziamento della medicina di iniziativa per promuovere la salute, la prevenzione e i corretti stili di vita; <br /><br />
                   c)	contrasto alla privatizzazione e all’aziendalizzazione delle strutture sanitarie; <br /><br />
-                  d)  rilanciare la sanità pubblica attraverso un piano di assunzioni concordato con i rappresentanti dei lavoratori; contrastare la fuga dei professionisti attraverso misure di incentivazione economica e di valorizzazione del personale; <br /><br /> */}
+                  d)  rilanciare la sanità pubblica attraverso un piano di assunzioni concordato con i rappresentanti dei lavoratori; contrastare la fuga dei professionisti attraverso misure di incentivazione economica e di valorizzazione del personale; <br /><br />
                 </p>
               </div>
             </div>
@@ -81,7 +83,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
         <div className="separated" />
