@@ -35,7 +35,7 @@ const Index = () => {
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="#le-nostre-idee">
-                      Scopri le nostre idee
+                      Guarda i progetti
                     </a>
 
                   </div>
