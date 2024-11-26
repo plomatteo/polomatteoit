@@ -25,8 +25,8 @@ const About = () => {
 
                 <p>
                   Diplomato in informatica e laureato in Scienze dell'amministrazione e delle organizzazioni. <br /><br />
-                  Lavoro come Frontend Developer per un'azienda di Treviso.<br /><br />
-                  Vivo tra Firenze e Siena, quindi nel tempo libero o mangio o pedalo.<br /><br />
+                  Lavoro come Project Manager e Frontend Developer per un'azienda di Treviso.<br /><br />
+                  Vivo tra Firenze e Siena.<br /><br />
                   Sono stato Vicesindaco e Assessore al Turismo, attività produttive e sport del Comune di Grado tra il 2016 ed il 2021.
                 </p>
                 <div className="btn-bar">
