@@ -2,6 +2,11 @@ import Layout from "../src/layout/Layout";
 const SingleBlog = () => {
   return (
     <Layout blog >
+      <meta property="og:url" content="https://matteopolo.com/single-blog" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="La prima casa deve essere un diritto anche se nasci in una località turistica" />
+      <meta property="og:description" content=" Non mi stancherò mai di ripetere come Grado abbia bisogno di tutte quelle forme di edilizia che possono facilitare l'acquisto della prima casa per i residenti." />
+      <meta property="og:image" content="https://matteopolo.com/static/img/casa.png" />
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
@@ -59,54 +64,6 @@ const SingleBlog = () => {
                   <a href="#">Grado</a>
                 </div>
               </article>
-              <div className="contact-form article-comment">
-                <h4>Leave a Reply</h4>
-                <form id="contact-form" onSubmit={(e) => e.preventDefault()}>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          name="Name"
-                          id="name"
-                          placeholder="Name *"
-                          className="form-control"
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          name="Email"
-                          id="email"
-                          placeholder="Email *"
-                          className="form-control"
-                          type="email"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          name="message"
-                          id="message"
-                          placeholder="Your message *"
-                          rows={4}
-                          className="form-control"
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="send">
-                        <button className="px-btn px-btn-theme">
-                          <span>Submit</span> <i className="arrow" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
             </div>
           </div>
         </div>

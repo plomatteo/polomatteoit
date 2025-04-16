@@ -2,6 +2,11 @@ import Layout from "../src/layout/Layout";
 const SingleBlog2 = () => {
   return (
     <Layout blog >
+      <meta property="og:url" content="https://matteopolo.com/single-blog-2" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="Lotta alla precarietà, difesa dei servizi, investimenti per il progresso." />
+      <meta property="og:description" content="Ci sono molte questioni che in queste settimane vogliamo rimettere al centro del dibattito pubblico, tra queste ce ne sono quatto che hanno la priorità." />
+      <meta property="og:image" content="https://matteopolo.com/static/img/precarieta.jpeg" />
       <div className="single-blog">
         <div className="container">
           <div className="blog-feature-img">
@@ -49,54 +54,6 @@ const SingleBlog2 = () => {
                   <a href="#">Grado</a>
                 </div>
               </article>
-              <div className="contact-form article-comment">
-                <h4>Leave a Reply</h4>
-                <form id="contact-form" onSubmit={(e) => e.preventDefault()}>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          name="Name"
-                          id="name"
-                          placeholder="Name *"
-                          className="form-control"
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <input
-                          name="Email"
-                          id="email"
-                          placeholder="Email *"
-                          className="form-control"
-                          type="email"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          name="message"
-                          id="message"
-                          placeholder="Your message *"
-                          rows={4}
-                          className="form-control"
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="send">
-                        <button className="px-btn px-btn-theme">
-                          <span>Submit</span> <i className="arrow" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
             </div>
           </div>
         </div>

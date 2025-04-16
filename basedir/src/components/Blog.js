@@ -16,7 +16,28 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog-2">
+                <Link href="/single-blog-3" legacyBehavior >
+                  <a>
+                    <img src="static/img/mare-montagna.png" title="" alt="" />
+                  </a>
+                </Link>
+              </div>
+              <div className="blog-info" legacyBehavior>
+                <div className="meta">11/MAR/2023</div>
+                <h6>
+                  <Link href="/single-blog-3" legacyBehavior>
+                    <a>
+                      Finanziamenti per impianti di risalita a bassa quota sì, escavi delle cavane no
+                    </a>
+                  </Link>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="/single-blog-2" legacyBehavior>
                   <a>
                     <img src="static/img/precarieta.jpeg" title="" alt="" />
                   </a>
@@ -25,7 +46,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">9/MAR/2023</div>
                 <h6>
-                  <Link href="/single-blog-2">
+                  <Link href="/single-blog-2" legacyBehavior>
                     <a>
                       Lotta alla precarietà, difesa dei servizi di base e dell’ambiente, investimenti
                     </a>
@@ -37,7 +58,7 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link href="/single-blog" legacyBehavior>
                   <a>
                     <img src="static/img/casa.png" title="" alt="" />
                   </a>
@@ -46,7 +67,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">4/MAR/2023</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link href="/single-blog" legacyBehavior>
                     <a>
                       La prima casa deve essere un diritto anche se nasci in una località turistica
                     </a>

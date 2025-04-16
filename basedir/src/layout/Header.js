@@ -1,23 +1,32 @@
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState, useRef } from "react";
 import { activeSection } from "../utilits";
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
+  const sideBarRef = useRef();
+  const buttonRef = useRef();
   useEffect(() => {
     if (!blog) {
       activeSection();
     }
+    const closeSideBar = e => {
+      if (e.target !== sideBarRef.current && e.target !== buttonRef.current) {
+        setSideBarToggle(false);
+      }
+    }
+    document.body.addEventListener('mousedown', closeSideBar)
+    return () => document.body.removeEventListener('mousedown', closeSideBar)
   }, []);
   return (
     <Fragment>
-      <div className="mob-header">
+      <div ref={sideBarRef} className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/">
               <a className="logo-text">Matteo Polo '23</a>
             </Link>
           </div>
-          <button
+          <button ref={buttonRef}
             className={`toggler-menu ${sideBarToggle ? "open" : ""}`}
             onClick={() => setSideBarToggle(!sideBarToggle)}
           >
@@ -37,7 +46,7 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/logo-open.png" title="" alt="" />
+                <img src="static/img/matteo-polo.png" title="" alt="" />
               </div>
               <h5>Matteo Polo</h5>
             </div>
@@ -70,13 +79,13 @@ const MenuWithOutBlog = () => {
       <li data-menuanchor="about">
         <a className="nav-link" href="#biografia">
           <i className="ti-id-badge" />
-          <span>Biografia</span>
+          <span>Mi presento</span>
         </a>
       </li>
       <li data-menuanchor="services">
         <a className="nav-link" href="#le-nostre-idee">
           <i className="ti-panel" />
-          <span>Le nostre idee</span>
+          <span>I miei progetti</span>
         </a>
       </li>
       {/* <li data-menuanchor="work">
@@ -85,12 +94,12 @@ const MenuWithOutBlog = () => {
           <span>Partecipa</span>
         </a>
       </li> */}
-      <li data-menuanchor="blog" className="blog">
+      {/* <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Open Blog</span>
         </a>
-      </li>
+      </li> */}
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contatti">
           <i className="ti-map-alt" />
