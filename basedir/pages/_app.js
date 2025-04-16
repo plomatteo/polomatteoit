@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
 
     <Fragment>
       <Head>
-        <title>Matteo Polo - Project Manager e Frontend Developer</title>
+        <title>Matteo Polo - HR & Operation Coordinator</title>
         {/* <!-- Favicon --> */}
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
